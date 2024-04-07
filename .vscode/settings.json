@@ -1,0 +1,39 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.autoSearchPath": true,
+    "python.autoComplete.extraPaths": [
+      //  ".micropy/micropython_esp32_stubs-1.20.0.post5",
+        ".micropy/micropython_stdlib_stubs-1.1.2/stdlib",
+      //  ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+        ".micropy/railybit/stubs/micropython-v1_22_1_-esp32-LOLIN_C3_MINI_with_ESP32-C3FH4"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "python.autoComplete.typeshedPaths": [
+     //   ".micropy/micropython_esp32_stubs-1.20.0.post5",
+        ".micropy/micropython_stdlib_stubs-1.1.2/stdlib",
+      //  ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+        // ".micropy/railybit",
+        ".micropy/railybit/stubs/micropython-v1_22_1_-esp32-LOLIN_C3_MINI_with_ESP32-C3FH4",
+        "typings"
+    ],
+    "python.analysis.typeshedPaths": [
+      //  ".micropy/micropython_esp32_stubs-1.20.0.post5",
+        ".micropy/micropython_stdlib_stubs-1.1.2/stdlib",
+      //  ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+        // ".micropy/railybit",
+        ".micropy/railybit/stubs/micropython-v1_22_1_-esp32-LOLIN_C3_MINI_with_ESP32-C3FH4",
+        "typings"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.analysis.extraPaths": [
+      //  ".micropy/micropython_esp32_stubs-1.20.0.post5",
+        ".micropy/micropython_stdlib_stubs-1.1.2/stdlib",
+      //  ".micropy/BradenM-micropy-stubs-4f5a52a/frozen",
+      ".micropy/railybit/stubs/micropython-v1_22_1_-esp32-LOLIN_C3_MINI_with_ESP32-C3FH4"
+        // ".micropy/railybit"
+    ]
+}
